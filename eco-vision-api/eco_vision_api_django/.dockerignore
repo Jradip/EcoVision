@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3-journal
+*.sqlite3
+**/migrations/*.pyc
+**/migrations/__pycache__/
+.env
+.vscode/
+.idea/
+.git/

@@ -1,0 +1,29 @@
+name: Deploy OpenAPI Docs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'openapi.yaml'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+
+      - name: Install Redoc CLI
+        run: npm install -g redoc-cli
+
+      - name: Generate Redoc HTML
+        run: redoc-cli bundle openapi.yaml -o index.html
+
+      - name: Push to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          force_orphan: true

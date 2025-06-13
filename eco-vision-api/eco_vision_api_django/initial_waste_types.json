@@ -1,0 +1,72 @@
+[
+  {
+    "model": "eco_vision_api_bank_app.wastetype",
+    "pk": "fad601ef-6951-4439-adf2-879d2a0d9c81",
+    "fields": {
+      "name": "cardboard"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.wastetype",
+    "pk": "b7f8ef1d-f54e-426b-9838-94c2e0f35422",
+    "fields": {
+      "name": "trash"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.wastetype",
+    "pk": "a211794d-81ca-4bcd-afed-8e56f70127c8",
+    "fields": {
+      "name": "glass"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.wastetype",
+    "pk": "9ce04f3e-5bc6-4a2b-84b3-8bbbacff1df6",
+    "fields": {
+      "name": "battery"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.wastetype",
+    "pk": "9b1bd5f3-110c-4566-978a-a32d8d91e6fd",
+    "fields": {
+      "name": "paper"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.wastetype",
+    "pk": "90f26646-32ae-4073-aa47-31e41c96213c",
+    "fields": {
+      "name": "shoes"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.wastetype",
+    "pk": "863bde71-e041-4366-a3d4-60c02ae850b3",
+    "fields": {
+      "name": "metal"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.wastetype",
+    "pk": "5340cbed-9e9e-4362-b5a3-ab99909b4abd",
+    "fields": {
+      "name": "clothes"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.wastetype",
+    "pk": "1e5f44ce-9b2c-49b4-9137-c5ecf755bd57",
+    "fields": {
+      "name": "plastic"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.wastetype",
+    "pk": "1b1dc17c-7917-41b3-945e-09330e0ed49f",
+    "fields": {
+      "name": "biological"
+    }
+  }
+]

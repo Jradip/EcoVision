@@ -1,0 +1,72 @@
+[
+  {
+    "model": "eco_vision_api_bank_app.trashcan",
+    "pk": "1c0c7a78-13e4-4702-9278-6760c93308e2",
+    "fields": {
+      "latitude": -6.241586,
+      "longitude": 106.992416,
+      "accepted_waste_types": [
+        "a211794d-81ca-4bcd-afed-8e56f70127c8",
+        "1e5f44ce-9b2c-49b4-9137-c5ecf755bd57",
+        "90f26646-32ae-4073-aa47-31e41c96213c",
+        "b7f8ef1d-f54e-426b-9838-94c2e0f35422"
+      ]
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.trashcan",
+    "pk": "c75345c7-ab71-4139-901b-e87b5fe0b1bc",
+    "fields": {
+      "latitude": -6.265403,
+      "longitude": 106.973825,
+      "accepted_waste_types": [
+        "b7f8ef1d-f54e-426b-9838-94c2e0f35422",
+        "fad601ef-6951-4439-adf2-879d2a0d9c81",
+        "9b1bd5f3-110c-4566-978a-a32d8d91e6fd",
+        "9ce04f3e-5bc6-4a2b-84b3-8bbbacff1df6"
+      ]
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.trashcan",
+    "pk": "e6c82681-9268-4354-972c-011a041d4e5b",
+    "fields": {
+      "latitude": -6.208763,
+      "longitude": 106.845599,
+      "accepted_waste_types": [
+        "5340cbed-9e9e-4362-b5a3-ab99909b4abd",
+        "9ce04f3e-5bc6-4a2b-84b3-8bbbacff1df6",
+        "fad601ef-6951-4439-adf2-879d2a0d9c81",
+        "90f26646-32ae-4073-aa47-31e41c96213c"
+      ]
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.trashcan",
+    "pk": "788da3ca-7c13-4820-96ab-e23f9cdf82a2",
+    "fields": {
+      "latitude": -6.174465,
+      "longitude": 106.822745,
+      "accepted_waste_types": [
+        "863bde71-e041-4366-a3d4-60c02ae850b3",
+        "b7f8ef1d-f54e-426b-9838-94c2e0f35422",
+        "9ce04f3e-5bc6-4a2b-84b3-8bbbacff1df6",
+        "90f26646-32ae-4073-aa47-31e41c96213c"
+      ]
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.trashcan",
+    "pk": "d5adda3f-9cc2-4480-adad-3b8de435ad14",
+    "fields": {
+      "latitude": -6.130679,
+      "longitude": 106.813187,
+      "accepted_waste_types": [
+        "a211794d-81ca-4bcd-afed-8e56f70127c8",
+        "1b1dc17c-7917-41b3-945e-09330e0ed49f",
+        "90f26646-32ae-4073-aa47-31e41c96213c",
+        "9ce04f3e-5bc6-4a2b-84b3-8bbbacff1df6"
+      ]
+    }
+  }
+]

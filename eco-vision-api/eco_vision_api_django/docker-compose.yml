@@ -1,0 +1,10 @@
+services:
+  eco-vision-api:
+    image: farizi/eco-vision-api:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - eco_db_data:/data
+
+volumes:
+  eco_db_data:

@@ -1,0 +1,338 @@
+[
+  {
+    "model": "eco_vision_api_bank_app.wastebank",
+    "pk": "f34c5078-60da-4705-b96f-b1c6fb5e7dbf",
+    "fields": {
+      "name": "Bank Sampah Indah",
+      "latitude": -6.208763,
+      "longitude": 106.845599,
+      "waste_processed": [
+        "fad601ef-6951-4439-adf2-879d2a0d9c81",
+        "9ce04f3e-5bc6-4a2b-84b3-8bbbacff1df6",
+        "a211794d-81ca-4bcd-afed-8e56f70127c8"
+      ]
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.wastebank",
+    "pk": "ae8bc7d9-75ba-478f-84ad-fef46ea3753a",
+    "fields": {
+      "name": "Bank Hijau Berseri",
+      "latitude": -6.241586,
+      "longitude": 106.992416,
+      "waste_processed": [
+        "9ce04f3e-5bc6-4a2b-84b3-8bbbacff1df6",
+        "a211794d-81ca-4bcd-afed-8e56f70127c8",
+        "1e5f44ce-9b2c-49b4-9137-c5ecf755bd57"
+      ]
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.wastebank",
+    "pk": "271feefc-559f-43f6-9186-b2ec55ea74e9",
+    "fields": {
+      "name": "Bank Sampah Sejahtera",
+      "latitude": -6.265403,
+      "longitude": 106.973825,
+      "waste_processed": [
+        "5340cbed-9e9e-4362-b5a3-ab99909b4abd",
+        "863bde71-e041-4366-a3d4-60c02ae850b3",
+        "b7f8ef1d-f54e-426b-9838-94c2e0f35422"
+      ]
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.wastebank",
+    "pk": "b7dc0507-4ac2-45d6-882f-c23fb7835ca5",
+    "fields": {
+      "name": "Bank Bersih Jaya",
+      "latitude": -6.265403,
+      "longitude": 106.973825,
+      "waste_processed": [
+        "1e5f44ce-9b2c-49b4-9137-c5ecf755bd57",
+        "1b1dc17c-7917-41b3-945e-09330e0ed49f",
+        "90f26646-32ae-4073-aa47-31e41c96213c"
+      ]
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "0dffdde8-c9eb-4f3a-a133-e86641974bb9",
+    "fields": {
+      "bank": "f34c5078-60da-4705-b96f-b1c6fb5e7dbf",
+      "day": "senin",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "5e14ea2c-aa62-487f-8a2a-7866deb7f587",
+    "fields": {
+      "bank": "f34c5078-60da-4705-b96f-b1c6fb5e7dbf",
+      "day": "selasa",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "8465f599-c4d3-415e-98b7-46055af52a47",
+    "fields": {
+      "bank": "f34c5078-60da-4705-b96f-b1c6fb5e7dbf",
+      "day": "rabu",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "b324930e-120a-4770-aab4-dc82f515cf6b",
+    "fields": {
+      "bank": "f34c5078-60da-4705-b96f-b1c6fb5e7dbf",
+      "day": "kamis",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "9227ac76-9481-40ff-aeae-34e4ebc15d80",
+    "fields": {
+      "bank": "f34c5078-60da-4705-b96f-b1c6fb5e7dbf",
+      "day": "jumat",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "1026b0c7-b65c-4df4-92ef-46cf0464ef74",
+    "fields": {
+      "bank": "f34c5078-60da-4705-b96f-b1c6fb5e7dbf",
+      "day": "sabtu",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "f6d362ac-2637-49d0-b866-6f4476cabf7e",
+    "fields": {
+      "bank": "f34c5078-60da-4705-b96f-b1c6fb5e7dbf",
+      "day": "minggu",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "4538679b-3f72-461e-848a-59cc9b0dc0d3",
+    "fields": {
+      "bank": "ae8bc7d9-75ba-478f-84ad-fef46ea3753a",
+      "day": "senin",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "e87b477b-e47b-4cb2-b7ee-b9de3487419a",
+    "fields": {
+      "bank": "ae8bc7d9-75ba-478f-84ad-fef46ea3753a",
+      "day": "selasa",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "d2d19d23-899e-4b05-862c-4aac3fd709ae",
+    "fields": {
+      "bank": "ae8bc7d9-75ba-478f-84ad-fef46ea3753a",
+      "day": "rabu",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "16f52b86-cdfa-4094-8e10-df63f879da69",
+    "fields": {
+      "bank": "ae8bc7d9-75ba-478f-84ad-fef46ea3753a",
+      "day": "kamis",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "51468d24-b176-457c-920f-ff05ae5b8600",
+    "fields": {
+      "bank": "ae8bc7d9-75ba-478f-84ad-fef46ea3753a",
+      "day": "jumat",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "84448dbc-085c-419b-b5b4-6098d4385ddd",
+    "fields": {
+      "bank": "ae8bc7d9-75ba-478f-84ad-fef46ea3753a",
+      "day": "sabtu",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "942c7b9f-1229-48a3-a181-e14b51fe868a",
+    "fields": {
+      "bank": "ae8bc7d9-75ba-478f-84ad-fef46ea3753a",
+      "day": "minggu",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "603d3a1a-7ba6-4208-904a-6a3d5af79e44",
+    "fields": {
+      "bank": "271feefc-559f-43f6-9186-b2ec55ea74e9",
+      "day": "senin",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "0ec93108-389f-4cf4-ad9f-ed30016a9269",
+    "fields": {
+      "bank": "271feefc-559f-43f6-9186-b2ec55ea74e9",
+      "day": "selasa",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "89864d8e-ee83-4b72-816c-bfd1e48b58c8",
+    "fields": {
+      "bank": "271feefc-559f-43f6-9186-b2ec55ea74e9",
+      "day": "rabu",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "a69a615f-2d81-4370-97c2-a9cd2dd67d17",
+    "fields": {
+      "bank": "271feefc-559f-43f6-9186-b2ec55ea74e9",
+      "day": "kamis",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "749579df-3724-4568-810b-c919f5698105",
+    "fields": {
+      "bank": "271feefc-559f-43f6-9186-b2ec55ea74e9",
+      "day": "jumat",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "4ce26785-ab23-47ca-b89b-82bcc36f4fbf",
+    "fields": {
+      "bank": "271feefc-559f-43f6-9186-b2ec55ea74e9",
+      "day": "sabtu",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "3975ba84-3a05-4a2f-bbd4-3312b026e6c6",
+    "fields": {
+      "bank": "271feefc-559f-43f6-9186-b2ec55ea74e9",
+      "day": "minggu",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "8be1163a-a477-42c3-86a3-b06beebe3bc5",
+    "fields": {
+      "bank": "b7dc0507-4ac2-45d6-882f-c23fb7835ca5",
+      "day": "senin",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "32dbcfa7-cfd1-4ad1-b3a7-5ff7cb4339f2",
+    "fields": {
+      "bank": "b7dc0507-4ac2-45d6-882f-c23fb7835ca5",
+      "day": "selasa",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "172cf263-f721-4982-ae42-961eaf7a991c",
+    "fields": {
+      "bank": "b7dc0507-4ac2-45d6-882f-c23fb7835ca5",
+      "day": "rabu",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "503d5acb-4d18-4f6e-aed5-ad546d03896c",
+    "fields": {
+      "bank": "b7dc0507-4ac2-45d6-882f-c23fb7835ca5",
+      "day": "kamis",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "9c244780-b2a0-4d5d-80c4-1e4f7f05011c",
+    "fields": {
+      "bank": "b7dc0507-4ac2-45d6-882f-c23fb7835ca5",
+      "day": "jumat",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "3fa87023-cd8d-41cd-8a30-37d5eb8eaefc",
+    "fields": {
+      "bank": "b7dc0507-4ac2-45d6-882f-c23fb7835ca5",
+      "day": "sabtu",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  },
+  {
+    "model": "eco_vision_api_bank_app.openinghour",
+    "pk": "36737050-2264-43d8-9973-c29bc0d4fdb7",
+    "fields": {
+      "bank": "b7dc0507-4ac2-45d6-882f-c23fb7835ca5",
+      "day": "minggu",
+      "open_time": "08:00:00",
+      "close_time": "17:00:00"
+    }
+  }
+]
